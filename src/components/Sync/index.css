@@ -1,0 +1,21 @@
+.sync {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.sync button {
+  background-color: #38497e;
+  color: white;
+  height: 3rem;
+  width: 12rem;
+  border-radius: 25px;
+  font-size: x-large;
+  border: none;
+}
+.empty,.sad{
+    font-size: x-large;
+}
+.padding-down{
+    padding-bottom: 1.5rem;
+}

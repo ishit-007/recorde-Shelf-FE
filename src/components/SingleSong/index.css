@@ -1,0 +1,85 @@
+.single-song {
+  width: 350px;
+  height: 350px;
+  background-color: #dfdfdf;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  border-radius: 20px;
+  margin: 20px;
+  overflow: auto;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.single-song img {
+  height: 270px;
+  width: 270px;
+  border-radius: 50%;
+}
+.song-Details .name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+  font-weight: 900;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.song-Details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.song-Details .artist {
+  font-size: small;
+  font-weight: 900;
+}
+.likes {
+  width: 41px;
+  height: 41px;
+}
+.likes img {
+  height: 40px;
+  width: 40px;
+  object-fit: contain;
+}
+.song-details-engagement {
+  display: flex;
+  justify-content: space-between;
+}
+
+.likes p {
+  transform: translate(16px, -38px);
+  color: white;
+}
+
+@media only screen and (max-width: 400px) {
+  .single-song > .image img {
+    height: 200px;
+    width: 200px;
+  }
+  .single-song {
+    height: 270px;
+    width: 270px;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .single-song > .image img {
+    height: 200px;
+    width: 200px;
+  }
+  .single-song {
+    height: 270px;
+    width: 270px;
+  }
+}

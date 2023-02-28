@@ -1,0 +1,16 @@
+.genre-header {
+  margin-left: 9%;
+  display: flex;
+}
+.text-content {
+  background-color: #4c63aa;
+  color: white;
+  padding: 10px 60px;
+  font-size: x-large;
+  border-radius: 30px;
+  transform: translate(-50px, 50px);
+  font-weight: bolder;
+}
+.image {
+  padding-left: 20px;
+}
